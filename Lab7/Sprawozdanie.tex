@@ -1,0 +1,76 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{titlesec}
+\usepackage{datetime}
+\usepackage{geometry}
+\usepackage{minted}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{caption}
+\usepackage{gensymb}
+\usepackage[document]{ragged2e}
+\usepackage[hidelinks]{hyperref}
+\usepackage{booktabs}
+\usepackage{placeins}
+
+\geometry{
+ a4paper,
+ left=25mm,
+ top=25mm,
+ }
+\captionsetup{hypcap=false}
+\newdateformat{daymonthyear}{\THEDAY .\THEMONTH .\THEYEAR}
+\title{
+  \centering
+  \includegraphics[width=\textwidth]{src/images/logo_PWr_kolor_poziom.png}\\
+  \fontsize{28pt}{30pt}\selectfont Sprawozdanie 7\\
+  \fontsize{14pt}{30pt}\selectfont Ćwiczenie 7.Modemy.Transmisja sygnałów cyfrowych}
+\author{Krzysztof Zalewa}
+\date{\daymonthyear\today}
+
+\renewcommand*\contentsname{Spis treści}
+\renewcommand{\listingscaption}{Fragment kodu}
+\begin{document}
+  \maketitle
+  \pagebreak
+  \tableofcontents
+  \pagebreak
+  \section{Wstęp teoretyczny}
+    \subsection{Systemy nawigacji satelitarnej}
+    \subsubsection{Budowa i zasada działania systemu GPS}
+    \begin{figure}[ht]
+      \centering
+      \includegraphics[width=\textwidth]{src/images/logo_PWr_kolor_poziom.png}
+      \caption{Schemat działania systemów stadiometrycznych}
+      \label{fig:gps}
+    \end{figure}
+    
+  \raggedright
+  \section{Zadanie laboratoryjne}
+    \subsection{Treść zadania}
+    
+    \subsection{Opis działania programu}
+    
+    \subsection{Kod programu}
+        \begin{frame}
+            \scriptsize
+            \inputminted[
+                style={vs},
+                breaklines,
+                breakanywhere, 
+                linenos, 
+                tabsize=4 
+            ]{python}{Lab5.py}
+            \vspace{1em}
+            \captionsetup{justification=centering}
+            \captionof{listing}{Kodu programu}
+            \label{lst:code}
+        \end{frame}      
+  \section{Wnioski}
+
+  \section{Źródła}
+  \begin{itemize}
+    \item 
+  \end{itemize}
+\end{document}
