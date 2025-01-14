@@ -1,5 +1,4 @@
 \documentclass{article}
-\usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage{datetime}
 \usepackage{geometry}
@@ -133,6 +132,26 @@
             z siecią o ssid maszt\_sygnalowy. Po poprawnym połączeniu włączany jest serwer na porcie 21.
             Następnie na serwer wysyłana jest prosta strona https na której rysuje się trójkąt.
         \subsection{Schemat sieci}
+            \begin{figure}[ht]
+                \centering
+                \includegraphics[width=\textwidth]{images/SiecUp.png}
+                * \textit{Na zajęciach podłączony był jeden układ ESP32 i jeden telefon ale
+                powinna być możliwość dodania wielu urządzeń.}
+                \caption{Schemat sieci}
+                \label{fig:WiFiScheme}
+            \end{figure}
+            \FloatBarrier
+            \textbf{Dane sieci:}
+            \begin{enumerate}
+                \item \textbf{Nazwa:} maszt\_sygnalowy
+                \item \textbf{Kanał:} 6
+                \item \textbf{IP:} od 192.168.1.1 do 192.168.1.255
+                \item \textbf{Adresy:} 253 (-1 adres sieci,-1 adres bramy domyślnej,-1 adres rozgłoszeniowy) 
+                \item \textbf{Maska:} 255.255.255.0
+                \item \textbf{Brama domyślna:} 192.168.1.2
+                \item \textbf{Urządzenia ESP32:} na adresach 192.168.1.3 do 192.168.128(rosnąco)
+                \item \textbf{Urządzenia klienckie:} na adresach 192.168.1.254 do 192.168.129(malejąco)
+            \end{enumerate}
         \subsection{Kod programu}
             \begin{frame}
                 \scriptsize
