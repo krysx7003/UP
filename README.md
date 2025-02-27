@@ -1,5 +1,4 @@
-# Peryferyjne
-Zadania na kurs Urządzenia Peryferyjne. 
+# Urządzenia Peryferyjne
 
 Kolejność zadań ustalona z prowadzącym (dr inż. Jan Nikodem) dla innych grup może się różnić. Wykonawcy Krzysztof Zalewa , Wiktor Wojnar. 
 
