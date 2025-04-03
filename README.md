@@ -39,6 +39,6 @@ Dokładne instrukcje na stronie: <https://indyk.ict.pwr.wroc.pl/uperyf/>
 3. W przypadku Lab3***,Lab4,Lab5 mogą zostać uruchomione przy pomocy pythona 3.12.3
 4. Lab5 i Lab6 muszą zostać skompilowane przy pomocy Arduino IDE i wysłane na odpowiednie urządzenia
 
-*Kod wykonany przy pomocy Arduino IDE zapisany z rozszeżeniem .cpp
-** Programy wykonają się poprawnie tylko w przypadku gdy z komputerem połączone będą odpowiednie użądzenia
-*** Kod znajduję się w pliku .pdf
+*Kod wykonany przy pomocy Arduino IDE zapisany z rozszeżeniem .cpp \
+** Programy wykonają się poprawnie tylko w przypadku gdy z komputerem połączone będą odpowiednie użądzenia \
+*** Kod znajduję się w pliku .pdf \
