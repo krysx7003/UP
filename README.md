@@ -41,4 +41,4 @@ Dokładne instrukcje na stronie: <https://indyk.ict.pwr.wroc.pl/uperyf/>
 
 *Kod wykonany przy pomocy Arduino IDE zapisany z rozszeżeniem .cpp \
 ** Programy wykonają się poprawnie tylko w przypadku gdy z komputerem połączone będą odpowiednie użądzenia \
-*** Kod znajduję się w pliku .pdf \
+*** Kod znajduję się w pliku .pdf
